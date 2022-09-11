@@ -41,16 +41,19 @@ p {
   color: white;
   border-radius: 5px;
 }
-.donate_today_area {
+.donate_today_area,
+.donate_plan_area {
   margin-top: 80px;
   text-align: center;
 }
-.donate_today_area h1 {
+.donate_today_area > h1:first-of-type,
+.donate_plan_area > h1:first-of-type {
   font-size: 50px;
   font-weight: 700;
   color: #121212;
 }
-.donate_today_area p {
+.donate_today_area > p:first-of-type,
+.donate_plan_area > p:first-of-type {
   color: #707070;
   width: 60%;
   margin: 40px auto 70px;
@@ -67,7 +70,7 @@ p {
   justify-content: center;
   align-items: center;
 }
-.card2 {
+#card2 {
   background-color: #ffeeee;
   color: #ff5959;
   border: 2px solid #ff5959;
@@ -83,4 +86,32 @@ p {
   margin: 30px auto 0px;
   height: 30px;
   border-bottom: 1px solid #dadada;
+}
+.donate_plan_items {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.item {
+  width: 32%;
+  height: 350px;
+  background-color: #edf5f6;
+  text-align: left;
+  border-radius: 3px;
+  padding: 25px;
+  align-items: center;
+}
+.item img {
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+.item h2 {
+  margin-bottom: 20px;
+}
+#item2_bg {
+  background-color: #ffeeee;
+}
+#item3_bg {
+  background-color: #fff4d6;
 }
