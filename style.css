@@ -95,7 +95,7 @@ p {
 }
 .item {
   width: 32%;
-  height: 350px;
+  height: 350px auto;
   background-color: #edf5f6;
   text-align: left;
   border-radius: 3px;
