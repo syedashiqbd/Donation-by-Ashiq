@@ -47,13 +47,15 @@ p {
   text-align: center;
 }
 .donate_today_area > h1:first-of-type,
-.donate_plan_area > h1:first-of-type {
+.donate_plan_area > h1:first-of-type,
+.get_update > h1:first-of-type {
   font-size: 50px;
   font-weight: 700;
   color: #121212;
 }
 .donate_today_area > p:first-of-type,
-.donate_plan_area > p:first-of-type {
+.donate_plan_area > p:first-of-type,
+.get_update > p:first-of-type {
   color: #707070;
   width: 60%;
   margin: 40px auto 70px;
@@ -114,4 +116,8 @@ p {
 }
 #item3_bg {
   background-color: #fff4d6;
+}
+.get_update {
+  margin-top: 80px;
+  text-align: center;
 }
