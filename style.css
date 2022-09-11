@@ -11,7 +11,7 @@ p {
 }
 
 .top_banner {
-  background-image: url(images/donation3.jpg);
+  background-image: url(images/donation13.jpg);
   width: 100vw;
   height: 670px;
   background-repeat: no-repeat;
@@ -26,14 +26,13 @@ p {
   justify-content: center;
   position: absolute;
   margin: 50px auto;
-  width: 50%;
+  width: 60%;
 }
 .top_banner_txt h1 {
   font-size: 70px;
-  font-weight: bold;
   margin-bottom: 30px;
 }
-.top_banner a {
+.link_btn {
   display: inline-block;
   margin-top: 40px;
   padding: 15px 40px;
@@ -41,4 +40,47 @@ p {
   text-decoration: none;
   color: white;
   border-radius: 5px;
+}
+.donate_today_area {
+  margin-top: 80px;
+  text-align: center;
+}
+.donate_today_area h1 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #121212;
+}
+.donate_today_area p {
+  color: #707070;
+  width: 60%;
+  margin: 40px auto 70px;
+}
+.card {
+  width: 135px;
+  height: 123px;
+  background-color: #fafafa;
+  color: #707070;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card2 {
+  background-color: #ffeeee;
+  color: #ff5959;
+  border: 2px solid #ff5959;
+}
+.amount_area {
+  width: 55%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.other_amnt {
+  width: 55%;
+  margin: 30px auto 0px;
+  height: 30px;
+  border-bottom: 1px solid #dadada;
 }
