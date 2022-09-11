@@ -151,3 +151,19 @@ p {
   font-size: 16px;
   margin-left: -10px;
 }
+footer {
+  width: 100vw;
+  height: 180px;
+  background-color: #0b0d17;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+footer h1 {
+  margin-bottom: 20px;
+  color: #ff5959;
+  font-family: "Lobster", cursive;
+  font-size: 40px;
+}
